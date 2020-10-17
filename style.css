@@ -1,0 +1,30 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(33, 120, 170);
+    color: palegreen;
+    font-size: 20px;
+    text-align: center;
+}
+
+#root {
+    max-width: 1200px;
+    margin: 0auto;
+}
+
+#genre {
+    max-width: 1200px
+    margin: 0auto
+}

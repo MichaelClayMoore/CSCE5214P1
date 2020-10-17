@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+        
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Genre Classifier</title>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+        <header>
+            <h1>Genre Classifier</h1>
+        </header>
+
+        <img src="musicstaff.jpg" width="300" height="160"/>
+        
+        <div id="root"></div>
+
+        <h1>Enter your song below!</h1>
+        <form>
+            <input type="text" id="artist" placeholder="Artist">
+            <input type="text" id="track" placeholder="Song Title">
+            <button type="button" onclick="fetch()">Submit</button>
+        </form>
+        <script src='song2.js'></script>
+
+        <div id="genre"></div>
+    </body>
+
+</html>
